@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>ProjectName Documentation -
+    </title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen, projection">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="backTop" title="Go to top">Top</button>
+    <div id="myHeader" class="header clearfix">
+        <!-- <div class="logo"> <img src="assets/images/logo.png" alt="AnZ AppInstant">
+        </div> -->
+        <ul class="menu">
+            <li class="logo"><img class="img-logo" src="assets/images/logo.png" alt="AnZ AppInstant"></li>
+            <li>
+                <span>1</span>
+                <a href="#HowToOpenProject">Open Project</a>
+            </li>
+            <li>
+                <span>2</span>
+                <a href="#HowToChangeAppNameAndIcon">Name and Icon</a>
+            </li>
+            <li>
+                <span>3</span>
+                <a href="#HowToChangeAppIDPackageName">App/Drawable Icon</a>
+            </li>
+            <li>
+                <span>4</span>
+                <a href="#HowToChangeAdMobID">Ads Controller</a>
+            </li>
+            <li>
+                <span>5</span>
+                <a href="#HowToReskin">Reskin</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="content clearfix">
+        <div class="project-description container">
+            <h1 class="project-title">Guide for Hexa Puzzle - Unity Template</h1>
+            <div class="project-info">
+                <p class="project-author">Created:
+                    <span>24/10/2020</span> &nbsp;&nbsp;Author:
+                    <span>anzgame</span></p>
+                <p class="project-thanks">Thank you for purchasing my game. If you have any questions that are beyond the scope of this help file,
+                    <br>please send me email
+                    <a href="mailto:anzgame@outlook.com">anzgame@outlook.com</a>. Don't forget to give me a nice review for the app. Thanks so much!</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h3 id="HowToOpenProject">
+                <span>1</span>Open project in Unity Editor (use 2018.4.9f or higher version for project to work perfectly)</h3>
+
+            <p>
+                Click on <b>Open</b> button and find your
+                <b>Hexa Puzzle - Unity Template</b> folder, which you downloaded after purchase successful.</p>
+
+            <img src="assets/images/open_project.PNG" alt="Open Project in Unity" />
+            <p></p>
+        </div>
+        <!-- 2. How to change Name and Icon -->
+        <div class="container">
+            <h3 id="HowToChangeAppNameAndIcon">
+                <span>2</span>How to change Icon and Product Name
+                
+            </h3>
+            <hr>
+            <p>
+                <span class="step">1</span> 
+                Drag any icon you have designed for the game into project folder (Recommend
+                <b>"Images"</b> folder inside project).
+            </p>
+            <p>
+                <span class="step">2</span> Click on
+                <b>"File/Build Settings/"</b>. 
+            </p>
+            <img src="assets/images/open_builsetting.png" alt="HTML Structure" width="200%" /></br>
+            <p>
+                <span class="step">3</span> When
+                <b>"Build Setting"</b> popup show, click
+                <b>"Player Setting"</b>.
+            </p>
+            <img src="assets/images/open_player_setting.PNG" alt="HTML Structure" width="200%" /></br>
+            <p>
+                <span class="step">4</span> Drag the icon you prepare earlier into
+                <b>"Default icon"</b> to replace the game icon.
+            </p>
+            <img src="assets/images/change_game_icon.PNG" alt="HTML Structure" width="200%" /></br>
+            <p>
+                <span class="step">5</span> Input the name you want for the game in
+                <b>"Product Name"</b> to replace the name of the game.
+            </p>
+            <img src="assets/images/change_product_name.PNG" alt="HTML Structure" width="200%" /></br>
+        </div>
+        <!-- 3. How to change Package name -->
+        <div class="container">
+            <h3 id="HowToChangeAppIDPackageName">
+                <span>3</span> How to change Package Name
+                <strong class="text-important">Very Important</strong>
+            </h3>
+            <p> <span class="step">1</span> Click on
+            <b>"Other Setting"</b> in <b>"Player Setting"</b>
+            .</p>
+            <p> <span class="step">2</span> Input the Package Name you want for the game in
+                <b>"Package Name"</b> to replace the game Package Name.
+                .</p>
+            <img src="assets/images/change_package_name.PNG" alt="HTML Structure" width="200%" />
+        </div>
+        <!-- 5. Ads Controller -->
+        <div class="container">
+            <h3 id="HowToChangeAdMobID">
+                <span>4</span> How to use Ads Controller</h3>
+                <p><span class="step">1</span> To active Admob, click on <b>Asset/Google Mobile Ads/Settings</b>.</p>
+                <img src="assets/images/active_gads.png" alt="HTML Structure" width="200%" />
+                <p><span class="step">2</span> Fill your Admob AppID into field like the image below.</p>
+                <img src="assets/images/fill_app_id.png" alt="HTML Structure" width="200%" />
+                <p><span class="step">3</span> To active Unity Ads, follow step by step in this <a href="https://docs.unity3d.com/540/Documentation/Manual/UnityAdsHowTo.html">link</a></p>
+            <p><span class="step">4</span> Choose
+                <b>InitObject</b> 
+                in <b>Game</b> Scene.
+            </p>
+            <p><span class="step">5</span> In there, you can fill all the <b>Admob</b> ID you have prepared in the Input Field we
+                 create for you.
+            </p>
+            <img src="assets/images/ads_controller.PNG" alt="HTML Structure" width="200%" />
+            <p><span class="step">5</span> We prepared for you 3 interstitial events, to increase you just need to increse the number of elements, after do that you can see a new ads event created.
+            </p>
+            <p>
+                <span class="step">6</span>
+                You can see a new ads event create:
+            </p>
+            <p>
+                - <b>AdType</b> for which ads provider your want to use, we already prepared <b>Unity Ads</b> and <b>Admob</b>.
+            </p>
+            <p>
+                - <b>AdPlacement</b> for where you want to show ads.
+            </p>
+            <p><b>Example: </b> The event in picture, we use Admob interstitial when Game Over, that mean if player lose the game the interstitial ads of Admob will show.
+            </p>
+            <img src="assets/images/ads_controller_2.PNG" alt="HTML Structure" width="200%" />
+        </div>
+        <div class="container">
+            <h3 id="HowToReskin"><span>5</span> How to reskin in project
+            </h3>
+
+                <p> - To reskin, you could choose the <b>Image</b> object and drag your new image you prepare to change.</p>
+                <p> Example: I chose the play button object, and drag my picture I have prepared in to Image.</p>
+                <img src="assets/images/reskin.PNG" alt="HTML Structure" width="200%" />
+        </div>
+        
+        <div class="container">
+            <p>Once again, thank you so much for purchasing this
+                <b>"Hexa Puzzle - Unity Template"</b> application.
+                <br>I'd be glad to help you if you have any questions relating to this application.
+                <br>Contact in email
+                <a href="mailto:anzgame@outlook.com ">anzgame@outlook.com
+        </a> for more support and personal services.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- SCRIPT STICKY HEADER -->
+<script>
+    //Get the button
+    var mybutton = document.getElementById("backTop");
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    window.onscroll = function() {
+        myFunction()
+    };
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header
+                .classList
+                .add("sticky");
+        } else {
+            header
+                .classList
+                .remove("sticky");
+        }
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
