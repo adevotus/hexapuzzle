@@ -61,10 +61,10 @@ public class TopPanel : BasePanel
 		instance.nowTheme = ((instance.nowTheme < UIManager.selfInstance.bkgPanel.themeCount) ? instance.nowTheme : 0);
 		UIManager.selfInstance.bkgPanel.SelectTheme(instance.nowTheme);
 		DateTime now = DateTime.Now;
-		if (!instance.forceChristmas && ((now.Month >= 12 && now.Day >= 22) || (now.Month <= 1 && now.Day <= 3)))
-		{
-			instance.forceChristmas = true;
-		}
+		//if (!instance.forceChristmas && ((now.Month >= 12 && now.Day >= 22) || (now.Month <= 1 && now.Day <= 3)))
+		//{
+		//	instance.forceChristmas = true;
+		//}
 		instance.forceTheme = true;
 		UIManager.selfInstance.menuPanel.SwitchSpTheme();
 		VectorAds.invokeAds(109, "theme" + instance.nowTheme.ToString());
