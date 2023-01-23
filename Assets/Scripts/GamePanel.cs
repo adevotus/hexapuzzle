@@ -23,10 +23,10 @@ public class GamePanel : BasePanel
 		Vector2 sizeDelta = Game.main.GetComponent<RectTransform>().sizeDelta;
 		Vector2 anchoredPosition = this.topRect.anchoredPosition;
 		anchoredPosition.y = sizeDelta.y / 2f + this.topRect.sizeDelta.y / 2f;
-		this.topRect.anchoredPosition = anchoredPosition;
+		//this.topRect.anchoredPosition = anchoredPosition;
 		anchoredPosition = this.bottomRect.anchoredPosition;
 		anchoredPosition.y = -sizeDelta.y / 2f - this.bottomRect.sizeDelta.y / 2f;
-		this.bottomRect.anchoredPosition = anchoredPosition;
+		//this.bottomRect.anchoredPosition = anchoredPosition;
 		float num = UIManager.selfInstance.canvas.GetComponent<RectTransform>().sizeDelta.y * 0.5f;
 		float y = num + anchoredPosition.y - 20f;
 		UIManager.selfInstance.topPanel.UpdateThemeBtn(y);

@@ -24,7 +24,8 @@ public sealed class Res
         new Color(20/255f, 149/255f, 253/255f),
         new Color(43/255f, 195/255f, 0),
         new Color(176/255f, 119/255f, 100/255f),
-        new Color(1, 137/255f, 0),
+        new Color(0.329411775f, 0.129411772f, 0.5137255f),
+        
         new Color(125/255f, 91/255f, 243/255f),
         new Color(194/255f, 30/255f, 92/255f),
         new Color(99/255f, 65/255f, 78/255f),
@@ -32,7 +33,7 @@ public sealed class Res
         new Color(0.03529412f, 0.4509804f, 0.466666669f),
         new Color(0.423529416f, 0.215686277f, 0.145098045f),
         new Color(0.160784319f, 0.247058824f, 0.396078438f),
-        new Color(0.329411775f, 0.129411772f, 0.5137255f),
+        new Color(1, 137/255f, 0),
         new Color(0f, 0f, 0f)
     };
 
